@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$db_host="localhost";
+$db_host="/home/student/it/2006/it063021/mysql/run/mysql.sock";
 $db_name="players_stats";
 $db_user= $_POST["name"];
 $db_pass= $_POST["pass"];
