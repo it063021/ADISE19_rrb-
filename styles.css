@@ -1,0 +1,108 @@
+body {
+       background-image: url('pics/main.png');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+     }
+h1 {
+       color: black;
+       text-align: center;
+       border: 3px solid red;
+       font-size: 60px;
+    }
+p {
+       color: black;
+}
+
+#syndesi {
+       font-size: 20px;
+       }
+
+#koumpia {
+       position: relative;
+       top: 50px;
+       left: 10px;
+       }
+
+button {
+       padding: 10px 24px;
+    }
+
+#enarxi {
+       position: relative;
+       top: 30px;
+       left: 10px;
+      }
+
+footer {
+       color: black;
+       position: relative;
+       top: 70px;
+       left: 10px;
+     }
+
+
+*{box-sizing: border-box}
+
+.pinakas{width: 300px;
+           overflow: hidden;
+           margin-top: 60px;
+           margin-left: 100px;
+
+         }
+
+         .pinakas span{width: 100%;
+                         display: block;
+                         text-align: center;
+                         font-family: sans-serif;
+                         color: black;
+                         font-size: 25px;
+                         margin-bottom: 30px;
+                         }
+
+.pinakas .box{float: left;
+                width: 100px;
+                height: 100px;
+                border: 4px solid;
+                transition: all .25s ease-in-out;
+                font-family: sans-serif;
+                font-size: 85px;
+                text-align: center;
+                line-height: 100px;
+                cursor: pointer;
+
+              }
+
+#play_bt {
+        cursor: pointer;
+        width: 200px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 150px;
+        font-size: 20px;
+        }
+
+.win{background: purple; color:gold}
+
+
+#stats{
+        position: absolute;
+        top: 120px;
+        left: 550px;
+        background-color:#E3D1EF;
+        width: 350px;
+        height: 300px;
+        border: 2px solid black;
+}
+
+table,th,td{
+        width:100%;
+        text-align: center;
+        border-spacing: 5px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 7px;
+        font-size: 21px;
+}
+
+</style>
