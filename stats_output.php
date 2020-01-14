@@ -29,3 +29,9 @@ while ($row= mysqli_fetch_assoc($result)){
 echo '<pre>';
 print_r($json_array);
 echo '</pre>';
+
+$Json_en = json_encode($json_array, JSON_PRETTY_PRINT );
+
+echo '<pre>';
+print_r($Json_en);
+echo '</pre>';
